@@ -49,43 +49,43 @@
       *============================================================================= 		   
        screen 						section.           
        01 tela-limpa.
-	       02 line 14 col 01 pic x(70) 	using work-limpar.
-	       02 line 15 col 01 pic x(70) 	using work-limpar.	 
-	       02 line 16 col 01 pic x(70) 	using work-limpar.	 
-	       02 line 17 col 01 pic x(70) 	using work-limpar.	 
-	       02 line 18 col 01 pic x(70) 	using work-limpar.	 
-	       02 line 19 col 01 pic x(70) 	using work-limpar.	 	 
-	       02 line 20 col 01 pic x(70) 	using work-limpar.
-	       02 line 21 col 01 pic x(70) 	using work-limpar.
-	       02 line 22 col 01 pic x(70) 	using work-limpar.
+	  02 line 14 col 01 pic x(70) 	using work-limpar.
+	  02 line 15 col 01 pic x(70) 	using work-limpar.	 
+	  02 line 16 col 01 pic x(70) 	using work-limpar.	 
+	  02 line 17 col 01 pic x(70) 	using work-limpar.	 
+	  02 line 18 col 01 pic x(70) 	using work-limpar.	 
+	  02 line 19 col 01 pic x(70) 	using work-limpar.	 	 
+	  02 line 20 col 01 pic x(70) 	using work-limpar.
+	  02 line 21 col 01 pic x(70) 	using work-limpar.
+	  02 line 22 col 01 pic x(70) 	using work-limpar.
 
-	   01 tela-01-menu.
+	01 tela-01-menu.
           02 line 1 col 1 reverse-video value "MENU PRINCIPAL". 
           02 line 06 col 22 value "0101 - Cadastro de Clientes         ".
           02 line 07 col 22 value "0102 - Cadastro de Vendedores                   ".         
-	      02 line 08 col 22 value "0201 - Relatorio de Clientes           ".
-	      02 line 09 col 22 value "0202 - Relatorio de Vendedores  	 ".	    
-	      02 line 10 col 22 value "0301 - Distribuir Clientes X  Vendedores      ".                  
- 	      02 line 09 col 22 value "9999 - Sair  	 ".	    
-		  02 col 33 highlight value "digite opcao:".
+	  02 line 08 col 22 value "0201 - Relatorio de Clientes           ".
+	  02 line 09 col 22 value "0202 - Relatorio de Vendedores  	 ".	    
+	  02 line 10 col 22 value "0301 - Distribuir Clientes X  Vendedores      ".                  
+ 	  02 line 09 col 22 value "9999 - Sair  	 ".	    
+	  02 col 33 highlight value "digite opcao:".
           02 col 49 value "_____".	 
  		 
        01 tela-02-cadastro-cliente.
           02 line 1 col 1 reverse-video value "MENU CADASTRO CLIENTES". 
           02 line 06 col 22 value "0101 - inclusao         ".
           02 line 07 col 22 value "0102 - alteracao                   ".         
-	      02 line 08 col 22 value "0103 - exclusao".
-		  02 line 08 col 22 value "0104 - importar".
-		  02 col 33 highlight value "digite opcao:".
+	  02 line 08 col 22 value "0103 - exclusao".
+          02 line 08 col 22 value "0104 - importar".
+          02 col 33 highlight value "digite opcao:".
           02 col 49 value "_____".	
 		  
        01 tela-02-cadastro-vendedor.
           02 line 1 col 1 reverse-video value "MENU CADASTRO VENDEDORES". 
           02 line 06 col 22 value "0101 - inclusao         ".
           02 line 07 col 22 value "0102 - alteracao                   ".         
-	      02 line 08 col 22 value "0103 - exclusao".
-		  02 line 08 col 22 value "0104 - importar".
-		  02 col 33 highlight value "digite opcao:".
+	  02 line 08 col 22 value "0103 - exclusao".
+          02 line 08 col 22 value "0104 - importar".
+          02 col 33 highlight value "digite opcao:".
           02 col 49 value "_____".	
            
           
