@@ -1,0 +1,12 @@
+       fd arq-imp-cli.
+       01 rs-arq-imp-cli.
+    	   05  rs-imp-cod-cli	        pic 9(003).
+    	   05  filler                   pic x(001).
+    	   05  rs-imp-cnpj         	    pic 9(014).
+    	   05  filler                   pic x(001).   
+    	   05  rs-imp-razao-social      pic 9(040).
+    	   05  filler                   pic x(001).             	  
+     	   05  rs-imp-lat-cli      		pic s9(003)v9(008).
+    	   05  filler                   pic x(001).
+    	   05  rs-imp-long-cli	        pic s9(003)v9(008).
+    	   05  filler                   pic x(001). 

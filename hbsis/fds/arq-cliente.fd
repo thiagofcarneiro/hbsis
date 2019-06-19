@@ -1,0 +1,12 @@
+       fd arq-cliente.
+       01 rs-arq-cli.
+    	   05  rs-cod-cli               pic 9(003).
+    	   05  filler                   pic x(001).
+    	   05  rs-cnpj        	        pic 9(011).
+    	   05  filler                   pic x(001).   
+    	   05  rs-razao-social        	pic 9(040).
+    	   05  filler                   pic x(001).             	  
+     	   05  rs-latitude         		pic s9(003)v9(008).
+    	   05  filler                   pic x(001).
+    	   05  rs-longitude         	pic s9(003)v9(008).
+    	   05  filler                   pic x(001).   

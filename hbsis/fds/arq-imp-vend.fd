@@ -1,0 +1,12 @@
+       fd arq-imp-ven.
+       01 rs-arq-imp-ven.
+    	   05  rs-imp-cod-ven	        pic 9(003).
+    	   05  filler                   pic x(001).
+    	   05  rs-imp-cpf         	    pic 9(014).
+    	   05  filler                   pic x(001).   
+    	   05  rs-imp-nome      		pic 9(040).
+    	   05  filler                   pic x(001).             	  
+     	   05  rs-imp-lat-vend     		pic s9(003)v9(008).
+    	   05  filler                   pic x(001).
+    	   05  rs-imp-long-vend	        pic s9(003)v9(008).
+    	   05  filler                   pic x(001).

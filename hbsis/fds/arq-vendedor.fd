@@ -1,0 +1,12 @@
+       fd arq-vendedor.
+       01 rs-arq-vend.
+    	   05  rs-cod-vend	            pic 9(003).
+    	   05  filler                   pic x(001).
+    	   05  rs-cpf         	        pic 9(011).
+    	   05  filler                   pic x(001).   
+    	   05  rs-nome        	        pic 9(040).
+    	   05  filler                   pic x(001).             	  
+     	   05  rs-latitude-vend         pic s9(003)v9(008).
+    	   05  filler                   pic x(001).
+    	   05  rs-longitude-vend        pic s9(003)v9(008).
+    	   05  filler                   pic x(001). 
