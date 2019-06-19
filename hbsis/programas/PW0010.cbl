@@ -44,7 +44,7 @@
        77  wk-arquivo                   pic x(006) value spaces.
        
        01  wk-area.
-		   05 work-limpar               PIC X(060) VALUE SPACES.
+           05 work-limpar               PIC X(060) VALUE SPACES.
             
       *============================================================================= 		   
        screen 						section.           
@@ -118,39 +118,39 @@
        01 tela-03-relatorio-cliente.
           02 line 1 col 1 reverse-video value "MENU RELATORIO CLIENTE". 
           02 line 07 col 22 value "0101-Lista Clientes - Ordem Ascendente                  ".         
-	      02 line 08 col 22 value "0102-Lista Clientes - Ordem Descendente".
-		  02 line 08 col 22 value "0103-Filtro por Codigo Cliente".
-		  02 line 08 col 22 value "0104-Filtro por Razao Social do Cliente".	  
-		  02 col 33 highlight value "digite opcao:".
+	  02 line 08 col 22 value "0102-Lista Clientes - Ordem Descendente".
+	  02 line 08 col 22 value "0103-Filtro por Codigo Cliente".
+	  02 line 08 col 22 value "0104-Filtro por Razao Social do Cliente".	  
+	  02 col 33 highlight value "digite opcao:".
           02 col 49 value "_____".	
 
        01 tela-03-relatorio-vendedor.
           02 line 1 col 1 reverse-video value "MENU RELATORIO VENDEDOR". 
           02 line 07 col 22 value "0201-Lista Vendedores - Ordem Ascendente                  ".         
-	      02 line 08 col 22 value "0202-Lista Vendedores - Ordem Descendente".
-		  02 line 08 col 22 value "0203-Filtro por Codigo Vendedor".
-		  02 line 08 col 22 value "0204-Filtro por Nome Vendedor".		  
-		  02 col 33 highlight value "digite opcao:".
+	  02 line 08 col 22 value "0202-Lista Vendedores - Ordem Descendente".
+          02 line 08 col 22 value "0203-Filtro por Codigo Vendedor".
+          02 line 08 col 22 value "0204-Filtro por Nome Vendedor".		  
+	  02 col 33 highlight value "digite opcao:".
           02 col 49 value "_____".	
 
       *============================================================================= 	
-	   procedure 					division.
-       0000-principal    			section.
+       procedure 			division.
+       0000-principal    		section.
 	    
-	         perform 1000-inicializa  
-	         perform 2000-processa
-				until   wk-opcao  equal 9999 or esc			 
-	         perform 3000-finaliza
+	    perform 1000-inicializa  
+	    perform 2000-processa
+		until   wk-opcao  equal 9999 or esc			 
+	    perform 3000-finaliza
 	    .
        0000-principal-exit.
-			exit.
+		exit.
 			
       *============================================================================= 	
-	   1000-inicializa				section.
-	   	    display  tela-limpa .
+       1000-inicializa				section.
+	  	display  tela-limpa .
 			
-	   1000-exit.
-			exit.
+       1000-exit.
+	     exit.
 			
       *============================================================================= 	
        2000-processa   				section.
